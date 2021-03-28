@@ -10,4 +10,4 @@
    1) git clone https://github.com/kyieon/Dinosauria.git
    2) cd minmi
    3) ./gradlew bootBuildImage --imageName=spring-minmi
-   4) docker build -dit -p 8080:8080  docker.io/library/spring-minmi:latest
+   4) docker run -dit -p 8080:8080  docker.io/library/spring-minmi:latest
